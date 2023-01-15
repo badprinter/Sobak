@@ -2,7 +2,8 @@
 
 # ((request)) well be replaced on your request
 url="https://rutracker.net/forum/tracker.php?nm=((request))"
-login="username"
+login-page=
+UserName="username"
 password="secret"
 
 # jquery selectors TODO заменить селекторы на работающие
@@ -11,3 +12,4 @@ title=".tt .wbr .med"
 size=".tor-size .dl-stub"
 seed=".nowrap .seedmed"
 leach=".leechmed"
+next-page=""
